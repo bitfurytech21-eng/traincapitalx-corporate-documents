@@ -1,0 +1,25 @@
+{
+  "company": {
+    "name": "TrainCapitalX",
+    "legalName": "TrainCapitalX Ltd.",
+    "website": "https://traincapitalx.com",
+    "email": "info@traincapitalx.com",
+    "phone": "+000 000 0000",
+    "address": "Company Registered Address",
+    "country": "Nigeria",
+    "registrationNumber": "",
+    "taxIdentificationNumber": "",
+    "logo": "../assets/images/logo.png",
+    "watermark": "TrainCapitalX"
+  },
+  "branding": {
+    "primaryColor": "#0A3D62",
+    "secondaryColor": "#F4B400",
+    "accentColor": "#1E88E5"
+  },
+  "documents": {
+    "prefix": "TCX",
+    "autoReference": true,
+    "autoDate": true
+  }
+}

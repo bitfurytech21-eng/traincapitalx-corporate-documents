@@ -1,0 +1,59 @@
+:root {
+  /* Brand Colors */
+  --primary: #0f3d91;
+  --primary-dark: #082b6a;
+  --secondary: #17a2ff;
+  --accent: #ffc107;
+  --success: #28a745;
+  --danger: #dc3545;
+  --warning: #fd7e14;
+
+  /* Neutral Colors */
+  --white: #ffffff;
+  --light: #f8f9fa;
+  --gray-100: #f1f3f5;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-500: #6c757d;
+  --gray-700: #495057;
+  --gray-900: #212529;
+  --black: #000000;
+
+  /* Typography */
+  --font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* Borders */
+  --border-radius: 8px;
+  --border-color: #dcdcdc;
+
+  /* Shadow */
+  --shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  /* Page */
+  --page-width: 210mm;
+  --page-height: 297mm;
+
+  /* Header */
+  --header-height: 80px;
+
+  /* Footer */
+  --footer-height: 60px;
+
+  /* Logo */
+  --logo-width: 70px;
+
+  /* Transition */
+  --transition: all 0.3s ease;
+}

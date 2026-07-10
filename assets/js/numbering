@@ -1,0 +1,80 @@
+/*
+=========================================
+TrainCapitalX
+Automatic Document Numbering
+Version 1.0
+=========================================
+*/
+
+const DocumentNumbering = (() => {
+
+    const PREFIX = "TCX";
+
+    function pad(number, length = 6) {
+        return number.toString().padStart(length, "0");
+    }
+
+    function currentDateString() {
+
+        const now = new Date();
+
+        const year = now.getFullYear();
+
+        const month = String(now.getMonth() + 1).padStart(2, "0");
+
+        const day = String(now.getDate()).padStart(2, "0");
+
+        return `${year}${month}${day}`;
+    }
+
+    function getCounter() {
+
+        const key = "tcx_document_counter";
+
+        let counter = Number(localStorage.getItem(key));
+
+        if (!counter || isNaN(counter)) {
+            counter = 1;
+        } else {
+            counter++;
+        }
+
+        localStorage.setItem(key, counter);
+
+        return counter;
+    }
+
+    function generate() {
+
+        return `${PREFIX}-${currentDateString()}-${pad(getCounter())}`;
+
+    }
+
+    function apply() {
+
+        const ref = generate();
+
+        document.querySelectorAll(".document-reference")
+            .forEach(el => {
+
+                if ("value" in el)
+                    el.value = ref;
+                else
+                    el.textContent = ref;
+
+            });
+
+    }
+
+    return {
+        generate,
+        apply
+    };
+
+})();
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    DocumentNumbering.apply();
+
+});

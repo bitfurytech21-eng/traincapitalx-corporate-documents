@@ -1,0 +1,24 @@
+{
+  "name": "traincapitalx-corporate-documents",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Corporate document management system with reusable HTML templates and print support.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "documents",
+    "corporate",
+    "html",
+    "templates",
+    "print",
+    "pdf"
+  ],
+  "author": "Bitfury Tech",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
