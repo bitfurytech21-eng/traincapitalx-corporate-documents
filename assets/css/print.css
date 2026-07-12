@@ -75,18 +75,13 @@
 /* Screen Preview */
 
 .document{
-
-    width:210mm;
-
-    min-height:297mm;
-
-    margin:30px auto;
-
-    background:white;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
-
-}
+    width: 8.5in;
+    min-height: 11in;
+    margin: 30px auto;
+    padding: 0.5in;
+    background: #white;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15)
 
 .print-button{
 
