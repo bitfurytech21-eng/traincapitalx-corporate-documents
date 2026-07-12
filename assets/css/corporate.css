@@ -92,6 +92,11 @@ main{
     pointer-events: none;
     z-index: 0;
 }
+.document > * {
+    position: relative;
+    z-index: 1;
+}
+
 .card{
     background:white;
     border-radius:12px;
