@@ -262,12 +262,15 @@ All portfolio activities are conducted im accordance with the company's polies a
 
 <br>
 
-<label>Company Seal</label>
+<div id="footer"></div>
 
-<img 
-  src="../assets/images/company-seal.png"
-     alt="Company Seal"
-     class="company-seal-image">
+<script>
+fetch("../components/footer.html")
+.then(response => response.text())
+.then(data => {
+    document.getElementById("footer").innerHTML = data;
+});
+</script>
   
 </div>
 
