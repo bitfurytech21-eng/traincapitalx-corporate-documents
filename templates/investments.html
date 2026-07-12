@@ -219,11 +219,15 @@ This Aggreement is intended as a structured record of investment data. Any finan
 
 <br>
 
-<div
+<div id="footer"></div>
 
- <img src="../assets/images/company-seal.png"
-     alt="Company Seal"
-     class="company-seal-image">
+<script>
+fetch("../components/footer.html")
+.then(response => response.text())
+.then(data => {
+    document.getElementById("footer").innerHTML = data;
+});
+</script>
   
      </div>
 
