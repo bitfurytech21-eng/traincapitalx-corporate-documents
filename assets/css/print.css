@@ -1,10 +1,10 @@
 /* ==========================================
    TrainCapitalX Print Styles
 ========================================== */
-
 @page{
-    size:A4 portrait;
-    margin:15mm;
+   
+    size: Letter;
+    margin: 0.5in;
 }
 
 @media print{
