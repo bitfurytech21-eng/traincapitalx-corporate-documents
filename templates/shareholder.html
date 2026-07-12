@@ -196,11 +196,15 @@ content of this agreement and voluntarily agree to be bound by its terms.
 
 <br>
 
-<label>Company Seal</label>
+<div id="footer"></div>
 
-<img src="../assets/images/company-seal.png"
-     alt="Company Seal"
-     class="company-seal-image">
+<script>
+fetch("../components/footer.html")
+.then(response => response.text())
+.then(data => {
+    document.getElementById("footer").innerHTML = data;
+});
+</script>
 
 </section>
 
