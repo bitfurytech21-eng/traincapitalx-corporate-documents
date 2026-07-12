@@ -302,3 +302,11 @@ button:hover{
     padding:8px;
 
 }
+
+/* Company Seal */
+.company-seal-image {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin: 20px auto 0;
+}
