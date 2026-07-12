@@ -282,13 +282,13 @@ customer data, or proprietary company materials without written.
 
 <h6>Acknowledgement</h6>
 
-<p>
+</p>
   
 Replace the current paragraph with:
 By signing below, both parties acknowledge that they have read,
 understood, and agreed to the terms and conditions of this Ambassador Program Agreement.
 
-</p>
+<p>
   
 </section>
 
@@ -305,6 +305,8 @@ understood, and agreed to the terms and conditions of this Ambassador Program Ag
 <label>Ambassador</label>
 
 <br><br><br>
+  
+<td><input type="text"></td>
 
 <hr>
 
@@ -316,6 +318,8 @@ understood, and agreed to the terms and conditions of this Ambassador Program Ag
 
 <br><br><br>
 
+<td><input type="text"></td>
+
 <hr>
 
 </div>
@@ -324,21 +328,18 @@ understood, and agreed to the terms and conditions of this Ambassador Program Ag
 
 <br>
 
-  </section>
+<br>
 
-</main>
+<div id="footer"></div>
 
-<footer>
-
-<p>© 2026 TrainCapitalX</p>
-
-    <img
-         src="./assets/images/company seal.jpg"
-         alt="TrainCapitalX Company Seal"
-        class="company-seal-image">
-
-    </footer>
-
+<script>
+fetch("../components/footer.html")
+.then(response => response.text())
+.then(data => {
+    document.getElementById("footer").innerHTML = data;
+});
+</script>
+  
 </section>
 
 <div class="form-actions no-print">
