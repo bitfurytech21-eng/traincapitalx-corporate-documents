@@ -3,7 +3,7 @@
 ========================================== */
 @page{
    
-    size: Letter;
+    size: Legal;
     margin: 0.5in;
 }
 
@@ -28,13 +28,13 @@
 
     .document{
 
-        width:100%;
+        width:8.5in;
 
         min-height:297mm;
 
         margin:0;
 
-        padding:15mm;
+        padding:0.5in;
 
         box-shadow:none;
 
@@ -76,10 +76,10 @@
 
 .document{
     width: 8.5in;
-    min-height: 11in;
-    margin: 30px auto;
+    min-height: 14in;
+    margin: 0px auto;
     padding: 0.5in;
-    background: #white;
+    background: #fff;
     box-sizing: border-box;
     box-shadow: 0 0 20px rgba(0,0,0,0.15)
 
@@ -104,7 +104,7 @@
 }
 @page{
     size: legal portrait;
-    margin:12mm;
+    margin:0.5in;
 }
 
 @media print {
@@ -124,17 +124,17 @@
 }
 .document{
 
-    width:216mm;
+    width:8.5in;
 
-    min-height:356mm;
+    min-height:14in;
 
     margin:0;
 
-    padding:15mm;
+    padding:0.5in;
 
     box-shadow:none;
 
-    border:1px solid #cfcfcf;
+    border:none solid #cfcfcf;
 }
 
 input,
