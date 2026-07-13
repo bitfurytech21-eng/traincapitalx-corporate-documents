@@ -107,18 +107,33 @@
     margin:12mm;
 }
 
-@media print{
+@media print {
 
-body{
-    background:white;
+    .announcement-header{
+        display:flex !important;
+        align-items:center;
+        gap:20px;
+        margin-bottom:25px;
+    }
+
+    .announcement-logo{
+        width:90px !important;
+        height:auto !important;
+    }
+
 }
-
 .document{
+
     width:216mm;
+
     min-height:356mm;
+
     margin:0;
+
     padding:15mm;
+
     box-shadow:none;
+
     border:1px solid #cfcfcf;
 }
 
