@@ -212,7 +212,7 @@ button:hover{
 
 .company-logo{
 
-    width:90px;
+    width:70px;
 
     height:auto;
 
@@ -327,7 +327,7 @@ button:hover{
 /* Company Seal */
 .company-seal-image {
     display: block;
-    width: 120px;
+    width: 140px;
     height: auto;
     margin: 20px auto 0;
 }
@@ -423,4 +423,11 @@ button:hover{
 
 .form-group textarea{
     resize:none;
+}
+/* Announcement Logo */
+.announcement-logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
 }
