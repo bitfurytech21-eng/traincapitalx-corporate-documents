@@ -360,3 +360,32 @@ button:hover{
     border-bottom:1px solid #000;
     margin-top:50px;
 }
+.form-row{
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+.form-group{
+    flex:1;
+}
+
+.form-group label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:6px;
+}
+
+.form-group input,
+.form-group textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #bdbdbd;
+    border-radius:4px;
+    font-size:14px;
+    box-sizing:border-box;
+}
+
+.form-group textarea{
+    resize:vertical;
+}
