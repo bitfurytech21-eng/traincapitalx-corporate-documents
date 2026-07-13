@@ -389,3 +389,38 @@ button:hover{
 .form-group textarea{
     resize:vertical;
 }
+.announcement-form{
+    width:100%;
+}
+
+.form-row{
+    display:flex;
+    gap:20px;
+    margin-bottom:18px;
+}
+
+.form-group{
+    flex:1;
+    margin-bottom:18px;
+}
+
+.form-group label{
+    display:block;
+    font-weight:700;
+    margin-bottom:6px;
+}
+
+.form-group input,
+.form-group textarea{
+    width:100%;
+    border:1px solid #bbb;
+    border-radius:5px;
+    padding:10px;
+    font-size:15px;
+    box-sizing:border-box;
+    background:#fff;
+}
+
+.form-group textarea{
+    resize:none;
+}
