@@ -102,3 +102,31 @@
     cursor:pointer;
 
 }
+@page{
+    size: legal portrait;
+    margin:12mm;
+}
+
+@media print{
+
+body{
+    background:white;
+}
+
+.document{
+    width:216mm;
+    min-height:356mm;
+    margin:0;
+    padding:15mm;
+    box-shadow:none;
+    border:1px solid #cfcfcf;
+}
+
+input,
+textarea{
+    border:1px solid #999;
+    color:#000;
+    background:#fff;
+}
+
+}
